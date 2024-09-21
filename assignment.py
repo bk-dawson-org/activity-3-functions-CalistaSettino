@@ -16,9 +16,8 @@ def calculateAngle(r,s,t) :
 
 def findAngles(r,s,t) :
     '''
-    This function displays the angles R, S, and T in degrees
-    parameters R, S, T: These are the angles of a triangle
-    return: this function returns the angles R, S and T in degrees
+    This function displays the angle R, S, or T in degrees
+    return: this function returns the angle of a triangle in degrees given sides r, s, and t
     '''
     findAngle = calculateAngle(r,s,t)
     return findAngle 

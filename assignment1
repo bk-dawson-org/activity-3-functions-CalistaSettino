@@ -1,10 +1,1 @@
-import math
 
-def calculateAngle(r,s,t) :
-    '''
-    This function calculates and returns the angle R in degrees
-    '''
-   angleR = math.acos(x) * ((r**2 - s**2 - t**2)/((-2)*s*t))
-   return angleR 
-
-print(calculateAngle(14,10,16))
